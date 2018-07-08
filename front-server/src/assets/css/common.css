@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+ul, ol, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: all .3s;
+}
+a:hover {
+    color: #24bfc4;
+}
+
+.clearfix { zoom: 1}
+.clearfix:after {
+	content: ' ';
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+
+
+@import './style';
+@import './animate';
