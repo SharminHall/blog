@@ -5,7 +5,6 @@ import app from './modules/app'
 import home from './modules/home'
 import article from './modules/article'
 import aboutMe from './modules/aboutMe'
-import apidoc from './modules/apidoc'
 import user from './modules/user'
 Vue.use(Vuex)
 
@@ -23,7 +22,6 @@ export function createStore () {
       home,
       article,
       aboutMe,
-      apidoc,
       user
     },
   })

@@ -18,12 +18,6 @@ const routes = [
         path: '/push',
         component: _import('components/push/push'),
         name: 'push'
-      },
-      {
-        path: '/api/page:id',
-        component: _import('views/home/component/apiPage'),
-        name: 'apiPage',
-        props: true
       }
     ]
   }

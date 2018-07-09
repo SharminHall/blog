@@ -10,19 +10,6 @@ const routes = [
   {
     path: '/',
     component: _import('home/home'),
-    children: [
-      {
-        path: '/explain',
-        component: _import('home/component/explain'),
-        name: 'explain'
-      },
-      {
-        path: '/api/:id',
-        component: _import('home/component/apiPage'),
-        name: 'apiPage',
-        props: true
-      }
-    ]
   },
   {
     path: '/aboutme',
